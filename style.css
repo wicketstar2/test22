@@ -1,0 +1,995 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  min-height: 100vh;
+} 
+
+
+.container {
+  position: absolute;
+  top: 10rem;
+  left: 40rem;
+  position: relative;
+  width: 15%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 1%;
+  height: auto;
+  transition: .0s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  border-radius: 8px;
+  background-color: #2b2727b9;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.myForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.Wellcomepage {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.add {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+
+.results{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.age {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.title {
+  position: absolute;
+  top: 0%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.age0 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age0:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age1 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age1:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.submit {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.submit:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+
+.age0:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age01 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.age01 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age01:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age04 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age04:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age05 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age05:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age1 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age1:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age2 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age2:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age3 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age3active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age4 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age4:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age5 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age5:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age6 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age6:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age7 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age7:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age8 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age8:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age9 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age9:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age10 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age10:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age11 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.ag11e:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age12 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age12:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age13 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age13:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age14 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age14:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age15 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age15:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age16 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age16:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age17 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age17:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age18 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age18:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age19 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age19:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age20 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age20:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age21 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age21:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age22 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age22:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age23 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age23:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age24 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age24:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age25 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age25:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.age26 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #181818;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+
+
+.age26:active {
+  background-color: #833333;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+.button11 {
+  position: absolute;
+  top: -13rem;
+  left: 0rem;
+  position: relative;
+  width: 25px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 1%;
+  height: auto;
+  transition: .0s ease;
+  backface-visibility: hidden;
+}
+

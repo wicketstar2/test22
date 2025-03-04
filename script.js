@@ -117,3 +117,183 @@ if (age1) {
         if (age28) age28.style.visibility ="hidden";
     };
 }
+
+// / 7b
+if (age2) {
+    age2.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 8b
+if (age3) {
+    age3.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 9b
+if (age4) {
+    age4.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 10b
+if (age5) {
+    age5.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 11b
+if (age6) {
+    age6.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 12b
+if (age7) {
+    age7.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 13b
+if (age8) {
+    age8.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 14b
+if (age9) {
+    age9.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 15b
+if (age10) {
+    age10.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 15b
+if (age11) {
+    age11.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 15b
+if (age12) {
+    age12.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}
+
+// / 15b
+if (age13) {
+    age13.onclick = function () {
+        if (text1) text1.style.visibility = "visible";
+        if (results) results.style.visibility ="visible";
+        if (age05) age05.style.visibility = "hidden";
+        if (age04) age04.style.visibility = "hidden";
+        if (age01) age01.style.visibility = "hidden";
+        if (age0) age0.style.visibility = "hidden";
+        if (age03) age03.style.visibility = "hidden";
+        if (age27) age27.style.visibility ="hidden";
+        if (age28) age28.style.visibility ="hidden";
+    };
+}

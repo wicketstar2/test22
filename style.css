@@ -577,7 +577,7 @@ body {
 
 
 
-.ag11e:active {
+.age11:active {
   background-color: #833333;
   box-shadow: 0 1px #666;
   transform: translateY(4px);
@@ -973,6 +973,40 @@ body {
   transform: translateY(4px);
 }
 
+.age27 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+ 
+}
+
+
+
+
+
+.age28 {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+ 
+}
+
+
+
 
 
 
@@ -1000,11 +1034,16 @@ body {
 
 /* Meida Query: Tablet or Smaller */
 @media screen and (max-width: 1000px){
-  .quote-container{
-    margin: auto 10px;
+  .container{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
   }
 
-  .quote-text {
+  .Wellcomepage {
     font-size: 2.5rem;
   }
 }
